@@ -1,0 +1,5 @@
+I prefer making a separate c code file that handles all debug statements
+Lots of missing debug statements
+Too many magic numbers
+Multiple return statements - I would use the multiple return statements as it condenses and simplifies code and in these cases does not affect readability too much
+I forgot to use static function to limit access

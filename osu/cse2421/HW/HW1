@@ -1,0 +1,5 @@
+all missing single job comment
+missing debug statements
+magic numbers
+output.c input to const
+more than one return (violates single exit rule from prev classes)

@@ -1,0 +1,52 @@
+PROGRAM sentry IS
+
+    INSTRUCTION FindObstacle IS
+        WHILE next-is-empty DO
+            IF random THEN
+                IF random THEN
+                    IF random THEN
+                        IF random THEN
+                            RandomDirection
+                        ELSE
+                            move
+                        END IF
+                    ELSE
+                        move
+                    END IF
+                ELSE 
+                    move
+                END IF
+            ELSE
+                move
+            END IF
+        END WHILE
+    END FindObstacle
+
+    INSTRUCTION RandomDirection IS  
+        IF random THEN
+            turnleft
+        ELSE 
+            turnright
+        END IF
+    END RandomDirection
+
+
+BEGIN
+    WHILE next-is-not-friend DO
+        FindObstacle
+        IF next-is-enemy THEN
+            infect
+        ELSE
+            IF next-is-wall THEN
+                RandomDirection
+            END IF
+        END IF
+    END WHILE
+
+    WHILE true DO
+        infect
+        IF next-is-not-empty THEN
+            turnleft
+        END IF
+    END WHILE
+END sentry

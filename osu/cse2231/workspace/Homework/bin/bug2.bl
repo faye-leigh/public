@@ -1,0 +1,45 @@
+PROGRAM bug1 IS
+
+    INSTRUCTION FindObstacle IS
+        WHILE next-is-empty DO
+            IF random THEN
+                IF random THEN
+                    IF random THEN
+                        IF random THEN
+                            RandomDirection
+                        ELSE 
+                            move
+                        END IF
+                    ELSE 
+                        move
+                    END IF
+                ELSE 
+                    move
+                END IF
+            ELSE 
+                move
+            END IF
+        END WHILE
+    END FindObstacle
+
+    INSTRUCTION RandomDirection IS  
+        IF random THEN
+            turnleft
+        ELSE 
+            turnright
+        END IF
+    END RandomDirection
+
+BEGIN
+    WHILE true DO
+        infect
+        FindObstacle
+        IF next-is-wall THEN  
+            turnleft
+        ELSE 
+            IF next-is-friend THEN
+                turnleft
+            END IF
+        END IF
+    END WHILE
+END bug1

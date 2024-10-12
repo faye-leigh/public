@@ -1,0 +1,14 @@
+{
+    "python.testing.pytestArgs": [
+        "little-sisters-essay"
+    ],
+    "python.testing.unittestEnabled": true,
+    "python.testing.pytestEnabled": false,
+    "python.testing.unittestArgs": [
+        "-v",
+        "-s",
+        "./mecha-munch-management",
+        "-p",
+        "*_test.py"
+    ]
+}

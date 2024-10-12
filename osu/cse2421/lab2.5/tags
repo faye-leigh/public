@@ -1,0 +1,79 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.8	//
+BLOCK_HEIGHT	sim.c	26;"	d	file:
+BLOCK_LENGTH	sim.c	25;"	d	file:
+Ball	structs.h	/^struct Ball {$/;"	s
+Block	structs.h	/^struct Block {$/;"	s
+CFLAGS	makefile	/^CFLAGS= -std=c99 -pedantic -Wformat -Wreturn-type $/;"	m
+DEBUG	debug.h	16;"	d
+DELTA_T	constants.h	4;"	d
+FIELD_BOTTOM	sim.c	20;"	d	file:
+FIELD_LEFT	sim.c	22;"	d	file:
+FIELD_RIGHT	sim.c	23;"	d	file:
+FIELD_TOP	sim.c	21;"	d	file:
+GRAPHICS	debug.h	14;"	d
+LDFLAGS	makefile	/^LDFLAGS=-L. -Wl,--copy-dt-needed-entries$/;"	m
+LIBS	makefile	/^LIBS=-lbko -l:libncurses.so.5 -lm$/;"	m
+Paddle	structs.h	/^struct Paddle {$/;"	s
+RVAL_BAD_INIT	lab2.c	46;"	d	file:
+RVAL_BAD_INPUT	lab2.c	47;"	d	file:
+TEXT	debug.h	13;"	d
+VERBOSE	debug.h	12;"	d
+bad_ball_message	output.c	/^void bad_ball_message(struct Ball *ball)$/;"	f
+ball_inside_block	sim.c	/^static bool ball_inside_block(struct Ball *ball, struct Block *block)$/;"	f	file:
+ball_is_on_field	sim.c	/^bool ball_is_on_field(struct Ball *ball)$/;"	f
+basic_motion	sim.c	/^static void basic_motion(struct Ball *ball)$/;"	f	file:
+bounce_message	output.c	/^void bounce_message(int color, char *wall, double X, double Y)$/;"	f
+collision_cases	sim.c	/^static void collision_cases(struct Ball *ball, struct Block *block)$/;"	f	file:
+color	structs.h	/^	int color, score;$/;"	m	struct:Paddle
+color	structs.h	/^	int color;$/;"	m	struct:Ball
+color	structs.h	/^	int color;$/;"	m	struct:Block
+do_everything	sim.c	/^bool do_everything()$/;"	f
+draw_balls	output.c	/^static void draw_balls(struct Ball *ball)$/;"	f	file:
+draw_blocks	output.c	/^static void draw_blocks(struct Block *block)$/;"	f	file:
+draw_paddles	output.c	/^static void draw_paddles(struct Paddle *paddle)$/;"	f	file:
+final_output	output.c	/^void final_output(double elapsed, struct Ball *ball, struct Block *block, struct Paddle *paddle)$/;"	f
+freeze	output.c	/^static void freeze(double elapsed, struct Ball *ball, struct Block *block, struct Paddle *paddle)$/;"	f	file:
+game_on	sim.c	/^static bool game_on(struct Ball *ball)$/;"	f	file:
+good_input	input.c	/^bool good_input( struct Ball *ball, struct Block *block,struct Paddle *paddle)$/;"	f
+hit_block	sim.c	/^static bool hit_block(struct Ball *ball, struct Block *block)$/;"	f	file:
+hit_left	sim.c	/^static void hit_left(struct Ball *ball)$/;"	f	file:
+hit_paddle	sim.c	/^static void hit_paddle(struct Ball *ball, struct Paddle *paddle)$/;"	f	file:
+hit_right	sim.c	/^static void hit_right(struct Ball *ball)$/;"	f	file:
+hit_top	sim.c	/^static void hit_top(struct Ball *ball)$/;"	f	file:
+hit_walls	sim.c	/^static void hit_walls(struct Ball *ball)$/;"	f	file:
+init	lab2.c	/^bool init()$/;"	f
+left_case	sim.c	/^static bool left_case(struct Ball *ball, struct Block *block)$/;"	f	file:
+main	lab2.c	/^int main()$/;"	f
+master_draw	output.c	/^static void master_draw(double elapsed, struct Ball *ball, struct Block *block, struct Paddle *paddle, bool show_balls)$/;"	f	file:
+master_output	output.c	/^void master_output(double elapsed, struct Ball *ball, struct Block *block, struct Paddle *paddle)$/;"	f
+master_print	output.c	/^static void master_print(double elapsed, struct Ball *ball, struct Block *block,struct Paddle *paddle, bool ok)$/;"	f	file:
+print_balls	output.c	/^static void print_balls(struct Ball *ball)$/;"	f	file:
+print_blocks	output.c	/^static void print_blocks(struct Block *block)$/;"	f	file:
+print_now	output.c	/^static bool print_now(double elapsed)$/;"	f	file:
+print_paddles	output.c	/^static void print_paddles(struct Paddle *paddle)$/;"	f	file:
+read_balls	input.c	/^static bool read_balls(struct Ball *ball)$/;"	f	file:
+read_blocks	input.c	/^static bool read_blocks(struct Block *block)$/;"	f	file:
+read_paddles	input.c	/^static bool read_paddles(struct Paddle *paddle)$/;"	f	file:
+reject_on_iy	sim.c	/^static bool reject_on_iy(struct Ball *ball, struct Block *block , double offset)$/;"	f	file:
+right_case	sim.c	/^static bool right_case(struct Ball *ball, struct Block *block)$/;"	f	file:
+run_simulation	sim.c	/^static void run_simulation(struct Ball *ball, struct Block *block, struct Paddle *paddle)$/;"	f	file:
+scanf_message	output.c	/^void scanf_message(char *who, int got, int wanted)$/;"	f
+score	structs.h	/^	int color, score;$/;"	m	struct:Paddle
+simple_left_rejections	sim.c	/^static bool simple_left_rejections(struct Ball *ball, struct Block *block)$/;"	f	file:
+simple_right_rejections	sim.c	/^static bool simple_right_rejections(struct Ball *ball, struct Block *block)$/;"	f	file:
+size	structs.h	/^	double x_position, size;$/;"	m	struct:Paddle
+teardown	lab2.c	/^void teardown()$/;"	f
+top_bottom_case	sim.c	/^static void top_bottom_case(struct Ball *ball, struct Block *block)$/;"	f	file:
+update_ball	sim.c	/^static void update_ball(struct Ball *ball, struct Block *block, struct Paddle *paddle )$/;"	f	file:
+x_position	structs.h	/^	double x_position, size;$/;"	m	struct:Paddle
+x_position	structs.h	/^	double x_position, y_position, x_velocity, y_velocity;$/;"	m	struct:Ball
+x_position	structs.h	/^	double x_position, y_position;$/;"	m	struct:Block
+x_velocity	structs.h	/^	double x_position, y_position, x_velocity, y_velocity;$/;"	m	struct:Ball
+y_position	structs.h	/^	double x_position, y_position, x_velocity, y_velocity;$/;"	m	struct:Ball
+y_position	structs.h	/^	double x_position, y_position;$/;"	m	struct:Block
+y_velocity	structs.h	/^	double x_position, y_position, x_velocity, y_velocity;$/;"	m	struct:Ball

@@ -1,0 +1,26 @@
+# Fdb version 4
+["pdflatex"] 1704830818.63838 "c:/Users/Faye/Documents/GitHub/OSU/CSE-2321/Homework/Test.tex" "Test.pdf" "Test" 1704830826.82317 0
+  "C:/Users/Faye/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map" 1704830308 80909 eab91d9745dd2edfd62a31d53cd5fe15 ""
+  "C:/Users/Faye/AppData/Local/MiKTeX/fonts/pk/ljfour/jknappen/ec/dpi600/tcrm0700.pk" 1704830823 8268 7ca3ab86d10ed3153d221d2db70de3b0 ""
+  "C:/Users/Faye/AppData/Local/MiKTeX/fonts/pk/ljfour/jknappen/ec/dpi600/tcrm1000.pk" 1704830826 11548 31e2dae5435f7720c53baf57c04e9151 ""
+  "C:/Users/Faye/AppData/Local/MiKTeX/miktex/data/le/pdftex/pdflatex.fmt" 1704827622 24224461 2f2f2a83e7c112f3c219fef07a551e77 ""
+  "C:/Users/Faye/AppData/Local/Programs/MiKTeX/fonts/tfm/jknappen/ec/tcrm0700.tfm" 993062506 1452 97bdc98984cb373fbcd868e2fa55f5f2 ""
+  "C:/Users/Faye/AppData/Local/Programs/MiKTeX/fonts/tfm/jknappen/ec/tcrm1000.tfm" 993062508 1436 c7f957a372ef2fbe93c0982f96625e12 ""
+  "C:/Users/Faye/AppData/Local/Programs/MiKTeX/fonts/tfm/public/cm/cmmi12.tfm" 1136765053 1524 4414a8315f39513458b80dfc63bff03a ""
+  "C:/Users/Faye/AppData/Local/Programs/MiKTeX/fonts/tfm/public/cm/cmr12.tfm" 1136765053 1288 655e228510b4c2a1abe905c368440826 ""
+  "C:/Users/Faye/AppData/Local/Programs/MiKTeX/fonts/tfm/public/cm/cmr17.tfm" 1136765053 1292 296a67155bdbfc32aa9c636f21e91433 ""
+  "C:/Users/Faye/AppData/Local/Programs/MiKTeX/fonts/tfm/public/cm/cmsy10.tfm" 1136765053 1124 6c73e740cf17375f03eec0ee63599741 ""
+  "C:/Users/Faye/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr10.pfb" 1247596667 35752 024fb6c41858982481f6968b5fc26508 ""
+  "C:/Users/Faye/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr12.pfb" 1247596667 32722 d7379af29a190c3f453aba36302ff5a9 ""
+  "C:/Users/Faye/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr17.pfb" 1247596666 32362 bc3f3eec7ab7d65fe700963d4017d32c ""
+  "C:/Users/Faye/AppData/Local/Programs/MiKTeX/tex/latex/base/article.cls" 1698826601 20144 fbcf51733730d8f1a62143512ff5b1fe ""
+  "C:/Users/Faye/AppData/Local/Programs/MiKTeX/tex/latex/base/size12.clo" 1698826601 8449 9de778d73ba774a5f2bd601f23f8922e ""
+  "C:/Users/Faye/AppData/Local/Programs/MiKTeX/tex/latex/l3backend/l3backend-pdftex.def" 1704400941 30006 57b07afb710ee2f649c65cfbafda39c1 ""
+  "Test.aux" 1704830819 32 3985256e7290058c681f74d7a3565a19 "pdflatex"
+  "Test.tex" 1704830816 224 c9f39c35e32452dcf9ba4f74736f8739 ""
+  "c:/Users/Faye/Documents/GitHub/OSU/CSE-2321/Homework/Test.tex" 1704830816 224 c9f39c35e32452dcf9ba4f74736f8739 ""
+  (generated)
+  "Test.aux"
+  "Test.log"
+  "Test.pdf"
+  (rewritten before read)

@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" path="hw02"/>
+	<classpathentry kind="src" path="hw03"/>
+	<classpathentry kind="src" path="hw04"/>
+	<classpathentry kind="src" path="hw05"/>
+	<classpathentry kind="src" path="hw06"/>
+	<classpathentry kind="src" path="hw07"/>
+	<classpathentry kind="src" path="hw08"/>
+	<classpathentry kind="src" path="hw09"/>
+	<classpathentry kind="src" path="hw10"/>
+	<classpathentry kind="src" path="hw11"/>
+	<classpathentry kind="src" path="hw12"/>
+	<classpathentry kind="src" path="hw13"/>
+	<classpathentry kind="src" path="hw14"/>
+	<classpathentry kind="src" path="hw15"/>
+	<classpathentry kind="src" path="hw16"/>
+	<classpathentry kind="src" path="hw17"/>
+	<classpathentry kind="src" path="hw20"/>
+	<classpathentry kind="src" path="hw29"/>
+	<classpathentry exported="true" kind="var" path="OSU_CSE_LIBRARY">
+		<attributes>
+			<attribute name="javadoc_location" value="http://web.cse.ohio-state.edu/software/common/doc8"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER">
+		<attributes>
+			<attribute name="module" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="con" path="org.eclipse.jdt.junit.JUNIT_CONTAINER/4"/>
+	<classpathentry kind="output" path="bin"/>
+</classpath>

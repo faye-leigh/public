@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" path="lab01"/>
+	<classpathentry kind="src" path="lab02"/>
+	<classpathentry kind="src" path="lab03"/>
+	<classpathentry kind="src" path="lab04"/>
+	<classpathentry kind="src" path="lab05"/>
+	<classpathentry kind="src" path="lab06"/>
+	<classpathentry kind="src" path="lab07"/>
+	<classpathentry kind="src" path="lab08"/>
+	<classpathentry kind="src" path="lab09"/>
+	<classpathentry kind="src" path="lab10"/>
+	<classpathentry kind="src" path="lab11"/>
+	<classpathentry kind="src" path="lab12"/>
+	<classpathentry kind="var" path="OSU_CSE_LIBRARY">
+		<attributes>
+			<attribute name="javadoc_location" value="http://web.cse.ohio-state.edu/software/common/doc8"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER">
+		<attributes>
+			<attribute name="module" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="con" path="org.eclipse.jdt.junit.JUNIT_CONTAINER/4"/>
+	<classpathentry kind="lib" path="lib/binary-tree-utility.jar"/>
+	<classpathentry kind="output" path="bin"/>
+</classpath>

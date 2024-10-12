@@ -1,0 +1,19 @@
+PROGRAM bug IS
+
+BEGIN
+    WHILE next-is-empty DO
+            IF random THEN
+                IF random THEN 
+                    IF random THEN
+                        turnleft
+                    ELSE 
+                        move
+                    END IF
+                ELSE 
+                    move
+                END IF
+            ELSE 
+                move
+            END IF
+        END WHILE
+END bug
