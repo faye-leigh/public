@@ -1,10 +1,4 @@
 #!/bin/bash
 
-git config --global user.email "faye@fayeleigh.com"
-git config --global user.name "L13"
+kitty --hold cd /home/faye/ ; git add . ; git commit -a -m "update from laptop" ; git push ; read test
 
-git add .
-git commit -a -m "update from laptop"
-git push
-
-kitty -e "git add . ; git commit -a -m "update from laptop" ; git push ; read test"
