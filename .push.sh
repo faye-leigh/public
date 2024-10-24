@@ -7,4 +7,4 @@ git add .
 git commit -a -m "update from laptop"
 git push
 
-kitty -e echo test
+kitty -e git add . ; git commit -a -m "update from laptop" ; git push ; read test
