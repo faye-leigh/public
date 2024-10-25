@@ -1,6 +1,5 @@
 #!/bin/bash
 
-kitty sh -c 'echo pushing to faye-leigh/git ; cd /home/faye/git ; git add . ; git commit -a -m "update from laptop" ; git push ; read test'
+# Push changes
 
-# kitty sh -c 'eval $(echo -e test) && read hold'
-# kitty sh -c 'echo test && read hold'
+kitty sh -c 'echo "Pushing changes to faye-leigh/git:" ; cd ~/git ; git add . ; git commit -a -m "update from laptop" ; git push ; printf "\nFinished\n\nPress enter to exit:" ; read wait'
