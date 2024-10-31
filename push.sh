@@ -8,5 +8,5 @@ kitty sh -c '
     git commit -a -m "update from laptop" ; 
     git push ; 
     # echo -e "\nFinished\n\nPress enter to exit:" ; 
-    read -p "Finished\n\nPress enter to exit:" wait
+    read -p -e "Finished\n\nPress enter to exit:" wait
 '
