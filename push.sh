@@ -9,9 +9,7 @@ kitty sh -c '
     git push ; 
     echo -e "\nFinished" ; 
     read -p "Press enter to exit: " wait
-'
-||
-konsole sh -c '
+' || konsole sh -c '
     echo "Pushing changes to faye-leigh/git:" ; 
     cd ~/git ; git add . ; 
     git commit -a -m "update from laptop" ; 
