@@ -1,0 +1,4 @@
+/home/faye/git/exercism/cpp/build/CMakeFiles/hello-world.dir
+/home/faye/git/exercism/cpp/build/CMakeFiles/test_hello-world.dir
+/home/faye/git/exercism/cpp/build/CMakeFiles/edit_cache.dir
+/home/faye/git/exercism/cpp/build/CMakeFiles/rebuild_cache.dir

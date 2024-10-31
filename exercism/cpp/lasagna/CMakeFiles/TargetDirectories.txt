@@ -1,0 +1,4 @@
+/home/faye/git/exercism/cpp/lasagna/CMakeFiles/lasagna.dir
+/home/faye/git/exercism/cpp/lasagna/CMakeFiles/test_lasagna.dir
+/home/faye/git/exercism/cpp/lasagna/CMakeFiles/edit_cache.dir
+/home/faye/git/exercism/cpp/lasagna/CMakeFiles/rebuild_cache.dir

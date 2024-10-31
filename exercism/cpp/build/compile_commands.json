@@ -1,0 +1,20 @@
+[
+{
+  "directory": "/home/faye/git/exercism/cpp/build",
+  "command": "/usr/bin/g++ -g -std=c++17 -Wall -Wextra -Wpedantic -Werror -o CMakeFiles/hello-world.dir/hello_world_test.cpp.o -c /home/faye/git/exercism/cpp/hello-world/hello_world_test.cpp",
+  "file": "/home/faye/git/exercism/cpp/hello-world/hello_world_test.cpp",
+  "output": "CMakeFiles/hello-world.dir/hello_world_test.cpp.o"
+},
+{
+  "directory": "/home/faye/git/exercism/cpp/build",
+  "command": "/usr/bin/g++ -g -std=c++17 -Wall -Wextra -Wpedantic -Werror -o CMakeFiles/hello-world.dir/hello_world.cpp.o -c /home/faye/git/exercism/cpp/hello-world/hello_world.cpp",
+  "file": "/home/faye/git/exercism/cpp/hello-world/hello_world.cpp",
+  "output": "CMakeFiles/hello-world.dir/hello_world.cpp.o"
+},
+{
+  "directory": "/home/faye/git/exercism/cpp/build",
+  "command": "/usr/bin/g++ -g -std=c++17 -Wall -Wextra -Wpedantic -Werror -o CMakeFiles/hello-world.dir/test/tests-main.cpp.o -c /home/faye/git/exercism/cpp/hello-world/test/tests-main.cpp",
+  "file": "/home/faye/git/exercism/cpp/hello-world/test/tests-main.cpp",
+  "output": "CMakeFiles/hello-world.dir/test/tests-main.cpp.o"
+}
+]

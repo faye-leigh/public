@@ -4,6 +4,8 @@ BasedOnStyle: Google
 ColumnLimit:    0
 IndentWidth:    4
 TabWidth:       4
+NamespaceIndentation: All
+InsertNewlineAtEOF: true
 
 # AlignAfterOpenBracket:          Align
 # AlignArrayOfStructures:         Right
