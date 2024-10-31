@@ -1,7 +1,6 @@
 #!/bin/bash
 
 # Push changes
-
 kitty sh -c '
     echo -e "Pushing changes to faye-leigh/git:\n" 
     cd ~/git 
