@@ -7,6 +7,6 @@ kitty sh -c '
     cd ~/git ; git add . ; 
     git commit -a -m "update from laptop" ; 
     git push ; 
-    echo -e "\nFinished\n" ; 
+    echo -e "\nFinished" ; 
     read -p "Press enter to exit: " wait
 '
