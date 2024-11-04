@@ -1,6 +1,6 @@
 #!/bin/bash
 
-# Push changes
+# Pull changes
 kitty sh -c '
     echo -e "Pulling changes from faye-leigh/git:\n" 
     cd ~/git 
