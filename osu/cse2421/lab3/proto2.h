@@ -1,3 +1,0 @@
-/* Faye Leigh */
-
-int main();
