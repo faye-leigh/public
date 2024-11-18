@@ -1,0 +1,6 @@
+[Desktop Entry]
+Exec=/home/faye/.local/share/applications/brave.desktop %u
+MimeType=x-scheme-handler/http;
+Name=brave.desktop
+NoDisplay=true
+Type=Application

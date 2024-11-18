@@ -1,0 +1,6 @@
+[Desktop Entry]
+Exec=/var/lib/flatpak/app/com.brave.Browser/current/active/export/share/applications/com.brave.Browser.desktop %u
+MimeType=x-scheme-handler/http;
+Name=com.brave.Browser.desktop
+NoDisplay=true
+Type=Application

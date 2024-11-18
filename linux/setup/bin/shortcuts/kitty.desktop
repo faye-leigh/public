@@ -1,0 +1,20 @@
+[Desktop Entry]
+Categories=System;TerminalEmulator;
+Comment[en_US]=Fast, feature-rich, GPU based terminal
+Comment=Fast, feature-rich, GPU based terminal
+Exec=kitty -e fish
+GenericName[en_US]=Terminal emulator
+GenericName=Terminal emulator
+Icon=kitty
+MimeType=
+Name[en_US]=kitty
+Name=kitty
+Path=
+StartupNotify=true
+Terminal=false
+TerminalOptions=
+TryExec=kitty
+Type=Application
+Version=1.0
+X-KDE-SubstituteUID=false
+X-KDE-Username=
